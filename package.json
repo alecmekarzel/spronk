@@ -1,6 +1,6 @@
 {
   "name": "spronk",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "description": "Easily cluster your apps via the CLI or with code.",
   "author": "Alec Mekarzel <alec@worklovegrow.com>",
   "private": true,

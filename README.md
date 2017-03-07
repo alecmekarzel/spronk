@@ -37,7 +37,7 @@ spronk({
 	workers: 4, // number of workers to start [#CPUS]
 	grace: 1000, // ms grace period after worker SIGTERM [5000]
 	lifetime: 10000, // ms to keep cluster alive if workers exit [Infinity]
-	start: function() {} // worker functions
+	start: function() {} // worker functions, this would typically contain your server code
 })
 ```
 

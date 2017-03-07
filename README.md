@@ -51,8 +51,8 @@ We don't accept issues; we accept pull requests.
 
 ## Changelog
 
-For milestones, visit the [project's releases](https://github.com/worklovegrow/worklovegrow-web-www/releases).
+For milestones, visit the [project's releases](https://github.com/alecmekarzel/spronk/releases).
 
 ## License
 
-For license information, visit the [project's license](https://github.com/worklovegrow/worklovegrow-web-www/blob/master/LICENSE).
+For license information, visit the [project's license](https://github.com/alecmekarzel/spronk/blob/master/LICENSE).

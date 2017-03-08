@@ -1,27 +1,27 @@
 {
-  "name": "spronk",
-  "version": "1.0.0",
-  "description": "Easily cluster your apps via the CLI or with code.",
-  "author": "Alec Mekarzel <alec@worklovegrow.com>",
-  "private": true,
-  "engines": {
-    "node": ">= 6.0.0"
-  },
-  "main": "./src/index.js",
-  "bin": {
-    "spronk": "./src/command.js"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "dependencies": {
-    "commander": "^2.9.0",
-    "lodash.defaults": "^4.0.1",
-    "lodash.isfunction": "^3.0.8",
-    "lodash.isplainobject": "^4.0.6"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
-  }
+	"name": "spronk",
+	"version": "1.0.0",
+	"description": "Easily cluster your apps via the CLI or with code.",
+	"author": "Alec Mekarzel <alec@worklovegrow.com>",
+	"private": true,
+	"engines": {
+		"node": ">= 6.0.0"
+	},
+	"main": "./src/index.js",
+	"bin": {
+		"spronk": "./src/command.js"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"dependencies": {
+		"commander": "^2.9.0",
+		"lodash.defaults": "^4.0.1",
+		"lodash.isfunction": "^3.0.8",
+		"lodash.isplainobject": "^4.0.6"
+	},
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"mocha": "^2.4.5"
+	}
 }

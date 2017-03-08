@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // NOTE: this script will be used when the user imports/requires
 
 const os = require('os')

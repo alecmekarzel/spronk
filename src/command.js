@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
 // NOTE: this script will be used when the user attempts to use the CLI
 

@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Easily cluster your apps via the CLI or with code.",
 	"author": "Alec Mekarzel <alec@worklovegrow.com>",
-	"private": true,
+	"license": "MIT",
 	"engines": {
 		"node": ">= 6.0.0"
 	},

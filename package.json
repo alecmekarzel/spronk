@@ -1,5 +1,5 @@
 {
-	"name": "spronk",
+	"name": "@alecmekarzel/spronk",
 	"version": "1.0.0",
 	"description": "Easily cluster your apps via the CLI or with code.",
 	"author": "Alec Mekarzel",

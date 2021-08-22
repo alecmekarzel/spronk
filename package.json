@@ -2,8 +2,11 @@
 	"name": "spronk",
 	"version": "1.0.0",
 	"description": "Easily cluster your apps via the CLI or with code.",
-	"author": "Alec Mekarzel <alec@worklovegrow.com>",
-	"license": "MIT",
+	"author": "Alec Mekarzel",
+	"repository": "git://github.com/alecmekarzel/spronk.git",
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com"
+	},
 	"engines": {
 		"node": ">= 6.0.0"
 	},
@@ -15,13 +18,13 @@
 		"test": "mocha"
 	},
 	"dependencies": {
-		"commander": "^2.9.0",
-		"lodash.defaults": "^4.0.1",
-		"lodash.isfunction": "^3.0.8",
+		"commander": "^8.1.0",
+		"lodash.defaults": "^4.2.0",
+		"lodash.isfunction": "^3.0.9",
 		"lodash.isplainobject": "^4.0.6"
 	},
 	"devDependencies": {
-		"chai": "^3.5.0",
-		"mocha": "^2.4.5"
+		"chai": "^4.3.4",
+		"mocha": "^9.0.3"
 	}
 }

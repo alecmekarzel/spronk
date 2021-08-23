@@ -1,6 +1,6 @@
 {
 	"name": "@alecmekarzel/spronk",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Easily cluster your apps via the CLI or with code.",
 	"author": "Alec Mekarzel",
 	"repository": "git://github.com/alecmekarzel/spronk.git",

@@ -10,10 +10,10 @@ const isPlainObject = require('lodash.isplainobject')
 const isFunction = require('lodash.isfunction')
 
 module.exports = function spronk(options) {
-	if (!isPlainObject(options)) throw new Error('You didn\'t define any options. A set of options is required.')
-	if (!isFunction(options.start)) throw new Error('You didn\'t define a start function. A start function is required.')
+	if (!isPlainObject(options)) throw new Error("You didn't define any options. A set of options is required.")
+	if (!isFunction(options.start)) throw new Error("You didn't define a start function. A start function is required.")
 
-	let startFn = options.start || function() {}
+	let startFn = options.start || function () {}
 
 	// if the cluster is a worker, return the user defined
 	// function so that cluster runs that instead
@@ -24,7 +24,7 @@ module.exports = function spronk(options) {
 	options = defaults(options, {
 		workers: os.cpus().length,
 		lifetime: Infinity,
-		grace: 5000
+		grace: 5000,
 	})
 
 	let isRunning = true

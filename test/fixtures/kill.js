@@ -7,8 +7,8 @@ spronk({
 	start: () => {
 		console.log('ah ha ha ha')
 
-		process.on('SIGTERM', function() {
+		process.on('SIGTERM', function () {
 			console.log('stayin alive')
 		})
-	}
+	},
 })

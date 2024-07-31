@@ -7,5 +7,5 @@ spronk({
 	start: () => {
 		console.log('worker')
 		process.exit()
-	}
+	},
 })

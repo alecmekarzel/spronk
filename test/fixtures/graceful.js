@@ -5,9 +5,9 @@ spronk({
 	start: () => {
 		console.log('worker')
 
-		process.on('SIGTERM', function() {
+		process.on('SIGTERM', function () {
 			console.log('exiting')
 			process.exit()
 		})
-	}
+	},
 })
